@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "mccfs_contentmod",
+	"version": "${version}",
+	"name": "CFS contentmod",
+	"description": "Content mod for a semi-private creative mode server.",
+	"authors": [
+		"Costin"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mccfs_contentmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.costin.Main"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

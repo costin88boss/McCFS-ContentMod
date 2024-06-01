@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mccfs_contentmod:block/keypad_lvl1"
+  }
+}
